@@ -1,0 +1,72 @@
+/* --------- BODY SECTION 1 --------- */
+.section-1 {
+    background-image: url(../img/istockphoto-1174511028-1024x1024-transformed.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    div {
+        height: 550px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        align-content: flex-start;
+        margin: 0 150px;
+
+        h1 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        a button {
+            background-color: #0e6efd;
+            font-size: 20px;
+            border-radius: 10px;
+            padding: 12px 28px;
+            width: 200px;
+        }
+
+        a button:hover {
+            background-color: #0e6efd;
+            color: blanchedalmond;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+    }
+
+}
+
+/* --------- BODY SECTION 2 --------- */
+.background-img {
+    background-image: url(../img/white-studio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.padding-0 {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* --------- BODY SECTION 3 --------- */
+.section-3 {
+    background-color: #e3e8eb;
+    height: 550px;
+
+    .contenedor {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    p {
+        font-size: 20px;
+        text-align: center;
+    }
+}

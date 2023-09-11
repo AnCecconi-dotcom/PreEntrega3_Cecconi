@@ -1,0 +1,14 @@
+//VARIABLES - TIPOGRAFIAS - RESETEO
+@import './variables/colors';
+
+@import './assets/reset';
+
+//ESTILOS DE LAS SECCIONES
+@import './pages/navbar';
+@import './pages/index';
+@import './pages/footer';
+@import './pages/conctactanos';
+@import './pages/nuestros-clientes';
+
+// BOOTSTRAP
+@import "../node_modules/bootstrap/scss/bootstrap";
