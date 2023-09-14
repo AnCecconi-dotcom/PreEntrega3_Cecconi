@@ -42,20 +42,24 @@
 }
 
 /* --------- BODY SECTION 2 --------- */
+
 .background-img {
     background-image: url(../img/white-studio.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-.padding-0 {
-    padding: 0px;
-    margin: 0px;
+
+h2.title-padding.title-position {
+        text-align: center;
+        padding: 20px;
+        margin: 0px;
+        background-color:$primary;   
 }
 
 /* --------- BODY SECTION 3 --------- */
 .section-3 {
-    background-color: #e3e8eb;
+    background-color: $color2;
     height: 550px;
 
     .contenedor {

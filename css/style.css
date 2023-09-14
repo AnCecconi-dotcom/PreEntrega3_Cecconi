@@ -6,7 +6,7 @@ nav {
   padding: 0px !important; }
   nav div div a:hover {
     font-size: 18px;
-    color: #FAF0CA !important;
+    color: #dbcdc6 !important;
     transition: 0.4s; }
   nav div div a img:hover {
     width: 30px !important;
@@ -41,7 +41,7 @@ nav {
       width: 200px; }
     .section-1 div a button:hover {
       background-color: #135B9D;
-      color: #FAF0CA;
+      color: #dbcdc6;
       box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       transition: 0.3s; }
 
@@ -52,13 +52,15 @@ nav {
   background-size: cover;
   background-position: center; }
 
-.padding-0 {
-  padding: 0px;
-  margin: 0px; }
+h2.title-padding.title-position, .title-padding.title-position.h2 {
+  text-align: center;
+  padding: 20px;
+  margin: 0px;
+  background-color: #135B9D; }
 
 /* --------- BODY SECTION 3 --------- */
 .section-3 {
-  background-color: #e3e8eb;
+  background-color: #dbcdc6;
   height: 550px; }
   .section-3 .contenedor {
     padding: 30px;
@@ -71,7 +73,7 @@ nav {
     text-align: center; }
 
 .footer {
-  background-color: #a8c6fa;
+  background-color: #D9F0FF;
   height: 150px;
   display: flex;
   flex-wrap: wrap;
