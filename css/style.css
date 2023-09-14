@@ -132,6 +132,11 @@ nav {
   align-items: center;
   flex-direction: column; }
 
+@media (max-width: 500px) {
+  .contacto .contenedor-form {
+    border: none;
+    padding: 10px 30px; } }
+
 .background-section {
   background-color: #f5f5f5; }
 
