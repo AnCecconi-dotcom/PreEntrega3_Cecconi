@@ -2,6 +2,15 @@ nav {
     padding: 0px !important;
 
     div div a:hover {
-        color: aliceblue !important;
+        font-size: 18px;
+        color: $color2 !important;
+        transition: 0.4s;
+    }
+
+    div div a img:hover {
+        width: 30px !important;
+        height: 30px !important;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transition: 0.3s;
     }
 }
