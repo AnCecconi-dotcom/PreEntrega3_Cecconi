@@ -1,3 +1,23 @@
-.background-section{
-    background-color: #f5f5f5;
+section.contenedor-pag3{
+    background-color: $secondary;
+    padding: 40px;
+
+    div.background-img {
+        background-image: url(../../img/layered-steps-haikei.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 150px;
+        width: 95%;
+        padding: 0px;
+        margin: 0px;
+
+        h1{
+            padding: 40px 0px 0px 130px;
+        }
+    }
+
+    div{
+        padding: 30px 10px 0px 10px;
+    }
 }

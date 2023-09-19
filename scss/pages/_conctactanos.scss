@@ -1,5 +1,5 @@
 .contacto {
-    background-color: #dcdcdc;
+    background-color: $secondary;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -15,14 +15,14 @@
 
     .contenedor-form {
         border: solid;
-        border-color: blue;
+        border-color: $primary;
         border-radius: 12px;
         border-width: 2px;
         padding: 30px 100px;
 
         .submit {
-            background-color: blue;
-            color: aliceblue;
+            background-color: $primary;
+            color: $secondary;
             font-size: 15px;
             border-radius: 10px;
             padding: 12px 28px;
@@ -30,9 +30,10 @@
         }
 
         .submit:hover {
-            background-color: blue;
-            color: blanchedalmond;
+            background-color: $primary;
+            color: $color3;
             box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            transition: 0.3s;
         }
     }
 }

@@ -1,5 +1,5 @@
 .footer {
-    background-color: $color5;
+    background-color: $primary;
     height: 150px;
     display: flex;
     flex-wrap: wrap;
@@ -18,12 +18,22 @@
         img {
             width: 50px;
         }
+
+        p {
+            a {
+                color: $color2;
+            }
+            a:hover{
+                color: $color3!important;
+            }
+        }
     }
 
     .img-3 img {
         width: 200px;
         ;
     }
+
 }
 
 @media (max-width:600px) {
