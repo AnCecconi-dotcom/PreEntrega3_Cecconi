@@ -18,7 +18,7 @@ nav {
 
 /* --------- BODY SECTION 1 --------- */
 .section-1 {
-  background-image: url(../../img/edificios.jpg);
+  background-image: url(../img/edificios-min.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -172,7 +172,7 @@ section.contenedor-pag3 {
   background-color: #D5CBAF;
   padding: 40px; }
   section.contenedor-pag3 div.background-img {
-    background-image: url(../../img/layered-steps-haikei.png);
+    background-image: url(../img/layered-steps-haikei.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -189,7 +189,7 @@ section.contenedor-pag2 {
   background-color: #D5CBAF;
   padding: 30px; }
   section.contenedor-pag2 div.background-img {
-    background-image: url(../../img/layered-steps-haikei.png);
+    background-image: url(../img/layered-steps-haikei.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -204,7 +204,7 @@ section.contenedor-pag4 {
   background-color: #D5CBAF;
   padding: 40px; }
   section.contenedor-pag4 div.background-img {
-    background-image: url(../../img/layered-steps-haikei.png);
+    background-image: url(../img/layered-steps-haikei.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
